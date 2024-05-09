@@ -9,11 +9,25 @@ You need to install sox to play the music.
 Use the following command if you are in a debian-based Linux Distribution.
 
 ```
-sudo apt-get install sox
+    sudo apt-get install sox
 ```
 
 If you are on Fedora, use the following command.
 
 ```
-sudo dnf install sox
+    sudo dnf install sox
+```
+
+## Usage
+
+Make sure the `pomodoro.sh` has execute permission.
+
+```
+    chmod u+x ./pomodoro.sh
+```
+
+Run the script.
+
+```
+    ./pomodoro.sh
 ```
