@@ -2,7 +2,7 @@
 
 echo "Starting Pomodoro Timer"
 
-while [[ 1 -eq 1 ]]
+while [[ true ]]
 do
 	echo "Begin work"
 	for i in {0..24}
